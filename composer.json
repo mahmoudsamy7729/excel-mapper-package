@@ -1,5 +1,5 @@
 {
-    "name": "sam/excel-mapper",
+    "name": "samheldev/excel-mapper",
     "description": "Laravel package to map Excel columns to database fields",
     "type": "library",
     "license": "MIT",
