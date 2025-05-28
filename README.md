@@ -20,11 +20,11 @@
 ```bash
 composer require sam/excel-mapper
 php artisan vendor:publish --provider="Sam\ExcelMapper\ExcelMapperServiceProvider" 
-php artisan vendor:publish --tag=excel-mapper-config # Publish the config file
+php artisan vendor:publish --tag=excel-import-config # Publish the config file
 ```
 ## 📄 Configuration
 ```bash
-php artisan vendor:publish --tag=excel-mapper-config # Publish the config file
+php artisan vendor:publish --tag=excel-import-config # Publish the config file
 ```
 ## 🧪Validation
 You can define validation rules for each table in the `config/excel-import.php` file. The rules will be applied to the data before importing it into the database.
